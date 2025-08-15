@@ -6,7 +6,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 // When the bot is ready
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}`);
-    client.user.setActivity('Hacking Mainframe', { type: ActivityType.Watching });
+    client.user.setActivity('Malware..', { type: ActivityType.Injecting });
 });
 
 // Login with token from Railway environment variables
